@@ -14,7 +14,7 @@ function App() {
     <Provider store={store}>
       <TareasProvider> 
         <NavigationContainer>
-          <Stack.Navigator headerMode="none">
+          <Stack.Navigator >
             <Stack.Screen name="Login" component={Login} />
             <Stack.Screen name="Home" component={Home} />
           </Stack.Navigator>
